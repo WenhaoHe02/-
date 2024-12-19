@@ -1,5 +1,5 @@
 # 东南大学抢课脚本无敌版
-目前性能最好的抢课脚本，经过实战检验
+目前性能最好的抢课脚本，经过实战检验,给个star就能用
 [油猴链接](https://greasyfork.org/zh-CN/scripts/521183-%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%8A%A2%E8%AF%BE%E5%8A%A9%E6%89%8B%E6%97%A0%E6%95%8C%E7%89%88)
 
 motivation: 
