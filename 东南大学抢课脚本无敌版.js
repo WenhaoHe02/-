@@ -2,7 +2,7 @@
 // @name        东南大学抢课助手无敌版
 // @namespace   http://tampermonkey.net/
 // @version     2.0.0
-// @description 听说你抢不到课
+// @description 基于前人的智慧开发
 // @author      WenhaoHe02
 // @license     Apache License 2.0
 // @match       https://newxk.urp.seu.edu.cn/xsxk/elective/grablessons?*
