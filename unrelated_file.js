@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        东南大学抢课助手无敌版
+// @name        null
 // @namespace   http://tampermonkey.net/
 // @version     2.0.0
-// @description 基于前人的智慧开发
-// @author      WenhaoHe02
+// @description null
+// @author      null
 // @license     Apache License 2.0
 // @match       https://newxk.urp.seu.edu.cn/xsxk/elective/grablessons?*
 // @run-at      document-loaded
@@ -220,7 +220,7 @@
                         display:none
                     `
                         },
-                        text: "有新版本，点击更新。更新后请重新进入选课页面",
+                        text: "有新版本，点击更新。",
                         ev: {
                             "click": () => {
                                 window.open("https://greasyfork.org/scripts/427237")
@@ -429,7 +429,6 @@
             ]
         }))
 
-        // 生成课程详情页
         self.createCourseDetailPop = course => self.createNode({
             tagName: "div",
             obj: {
@@ -477,7 +476,7 @@
                             obj: {
                                 "for": "auto"
                             },
-                            text: "自动抢课（开发中）"
+                            text: "（开发中）"
                         })
                     ]
                 }),
@@ -632,12 +631,11 @@
 
             }
         },
-        // 一键抢课
         enroll() {
             if (this.isRunning) {
                 tip({
                     type: "warning",
-                    message: "抢课已在进行中，请稍候",
+                    message: "进行中，请稍候",
                     duration: 1000
                 });
                 return;
@@ -648,7 +646,7 @@
             if (!key_list.length) {
                 tip({
                     type: "warning",
-                    message: "还没有输入课程",
+                    message: "还没有输入",
                     duration: 1000
                 });
                 this.isRunning = false;
